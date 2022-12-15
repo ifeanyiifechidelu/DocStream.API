@@ -1,0 +1,15 @@
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\bin\Debug\net6.0\DocStream.Services.deps.json
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\bin\Debug\net6.0\DocStream.Services.dll
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\bin\Debug\net6.0\DocStream.Services.pdb
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\bin\Debug\net6.0\DocStream.Utility.dll
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\bin\Debug\net6.0\DocStream.Utility.pdb
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.AssemblyInfoInputs.cache
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.AssemblyInfo.cs
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.csproj.CopyComplete
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.dll
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\refint\DocStream.Services.dll
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\DocStream.Services.pdb
+C:\Users\Decagon\source\repos\DocStream\DocStream.Services\obj\Debug\net6.0\ref\DocStream.Services.dll

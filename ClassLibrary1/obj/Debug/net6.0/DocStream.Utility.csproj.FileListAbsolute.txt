@@ -1,0 +1,14 @@
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\bin\Debug\net6.0\DocStream.Utility.deps.json
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\bin\Debug\net6.0\DocStream.Utility.dll
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\bin\Debug\net6.0\DocStream.Utility.pdb
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.AssemblyInfoInputs.cache
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.AssemblyInfo.cs
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.dll
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\refint\DocStream.Utility.dll
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.pdb
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\ref\DocStream.Utility.dll
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\bin\Debug\net6.0\DocStream.Utility.runtimeconfig.json
+C:\Users\Decagon\source\repos\DocStream\ClassLibrary1\obj\Debug\net6.0\DocStream.Utility.genruntimeconfig.cache

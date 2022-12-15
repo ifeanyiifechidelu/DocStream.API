@@ -1,0 +1,12 @@
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\bin\Debug\net6.0\DocStream.Srvices.deps.json
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\bin\Debug\net6.0\DocStream.Srvices.dll
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\bin\Debug\net6.0\DocStream.Srvices.pdb
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\DocStream.Srvices.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\DocStream.Srvices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\DocStream.Srvices.AssemblyInfoInputs.cache
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\DocStream.Srvices.AssemblyInfo.cs
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\DocStream.Srvices.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\DocStream.Srvices.dll
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\refint\DocStream.Srvices.dll
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\DocStream.Srvices.pdb
+C:\Users\Decagon\source\repos\DocStream\DocStream.Srvices\obj\Debug\net6.0\ref\DocStream.Srvices.dll
