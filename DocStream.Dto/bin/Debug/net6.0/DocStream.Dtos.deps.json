@@ -13,9 +13,9 @@
           "DocStream.Models": "1.0.0",
           "Mailjet.Api": "2.1.0",
           "Microsoft.AspNetCore.Cors": "2.1.1",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.11",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.12",
           "Microsoft.EntityFrameworkCore.Design": "6.0.12",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
           "Microsoft.Extensions.Identity.Stores": "6.0.12",
           "Serilog": "2.11.0",
           "Serilog.AspNetCore": "6.0.1",
@@ -181,7 +181,7 @@
       "Microsoft.AspNetCore.Http.Extensions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.8",
           "Microsoft.Net.Http.Headers": "2.2.0",
           "System.Buffers": "4.5.0"
         }
@@ -199,52 +199,40 @@
           "Microsoft.Extensions.Identity.Core": "6.0.12"
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.11": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.12": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "6.0.12",
           "Microsoft.Extensions.Identity.Stores": "6.0.12"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
-            "assemblyVersion": "6.0.11.0",
-            "fileVersion": "6.0.1122.52304"
+            "assemblyVersion": "6.0.12.0",
+            "fileVersion": "6.0.1222.57109"
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/6.0.11": {
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "6.0.11",
-          "Microsoft.Extensions.Identity.Stores": "6.0.12"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {
-            "assemblyVersion": "6.0.11.0",
-            "fileVersion": "6.0.1122.52304"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.JsonPatch/6.0.11": {
+      "Microsoft.AspNetCore.JsonPatch/6.0.12": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "6.0.11.0",
-            "fileVersion": "6.0.1122.52304"
+            "assemblyVersion": "6.0.12.0",
+            "fileVersion": "6.0.1222.57109"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.11": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.12": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.11",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.12",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "6.0.11.0",
-            "fileVersion": "6.0.1122.52304"
+            "assemblyVersion": "6.0.12.0",
+            "fileVersion": "6.0.1222.57109"
           }
         }
       },
@@ -363,15 +351,15 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.11": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.12": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.12"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "6.0.11.0",
-            "fileVersion": "6.0.1122.51302"
+            "assemblyVersion": "6.0.12.0",
+            "fileVersion": "6.0.1222.56411"
           }
         }
       },
@@ -434,27 +422,16 @@
           }
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.8": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
-        }
-      },
-      "Microsoft.Extensions.FileProviders.Embedded/6.0.11": {
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1122.52304"
-          }
         }
       },
       "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.8",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
         }
       },
@@ -1578,8 +1555,8 @@
           "Mailjet.Api": "2.1.0",
           "Microsoft.AspNetCore.Cors": "2.1.1",
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
           "Microsoft.Extensions.Identity.Stores": "6.0.12",
           "Serilog": "2.11.0",
           "Serilog.AspNetCore": "6.0.1",
@@ -1599,10 +1576,9 @@
           "Mailjet.Api": "2.1.0",
           "Microsoft.AspNet.Cors": "5.2.8",
           "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.11",
-          "Microsoft.AspNetCore.Identity.UI": "6.0.11",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.12",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
           "Microsoft.Extensions.Identity.Stores": "6.0.12",
           "Serilog": "2.11.0",
           "Serilog.AspNetCore": "6.0.1",
@@ -1769,33 +1745,26 @@
       "path": "microsoft.aspnetcore.identity/2.2.0",
       "hashPath": "microsoft.aspnetcore.identity.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.11": {
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Z/PPOJihUoFflFYE9KuuqyvZbrc15xs7rAQlU493BZgLldL06R3ht5P8q89JzrUcmcacCfqzimMXBsKjMMMvoQ==",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.11",
-      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.11.nupkg.sha512"
+      "sha512": "sha512-ihk4xQ3ZluORbd+cI6owfeFRwsnQVTveRjTyuaZfMXD9oi4LkFoxbz0KduWlzdL0Pvmr0oXBjlw6lckzSKsZ4g==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.12",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.12.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.UI/6.0.11": {
+    "Microsoft.AspNetCore.JsonPatch/6.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-t/K4fXPmOMSoCMtUUFe3uIsDzew5fiYTkHaO55/2eHS8VENzZ5Csl+qq6/ir1cYGH/3YAp3iN0+2O42fW5IF3A==",
-      "path": "microsoft.aspnetcore.identity.ui/6.0.11",
-      "hashPath": "microsoft.aspnetcore.identity.ui.6.0.11.nupkg.sha512"
+      "sha512": "sha512-Nl274FkB2rK2MtD3eSUCEs1oHeustZWauPUaMMV6CUn65jGkxiYNGTBSJCjzpUfkvTaVy8WFWG7BqBZyj3DMLw==",
+      "path": "microsoft.aspnetcore.jsonpatch/6.0.12",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.6.0.12.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/6.0.11": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xrgl+xfCAHGPTEtex/fF/t9jbr4ckBAwB5txVrO+Osn9SdrbypUem2ES946PCAEPWOgcLiAlH/pnsCw7Nv1NAw==",
-      "path": "microsoft.aspnetcore.jsonpatch/6.0.11",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.6.0.11.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-960KzgL+iaRhvEXdejEpeG9b7i5/ooUyi7uY237tYKKS57SjzGZ7He5TDAYl3dILW2SRa4BpSWoiB9Chu++JDQ==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.11",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.11.nupkg.sha512"
+      "sha512": "sha512-DLeEEdnOSJpmHp+N2vXtKGLfdoWOXTcZkApnj+OAQiHmS6+nLrhto19ac0Bm8VyVqLqFwMpP1U27tA4KlRTjVw==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.12",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.12.nupkg.sha512"
     },
     "Microsoft.AspNetCore.WebUtilities/2.2.0": {
       "type": "package",
@@ -1860,12 +1829,12 @@
       "path": "microsoft.entityframeworkcore.relational/6.0.12",
       "hashPath": "microsoft.entityframeworkcore.relational.6.0.12.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.11": {
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ua2+N4y/t5LZ78sO4ZBeP4d7mp/NFFWN2+wktMXCCBl3tR1s06r0I0W6lQz36Z4F1J45Lwb4O8djocqnEEYC2Q==",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.11",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.11.nupkg.sha512"
+      "sha512": "sha512-bdKnSz1w+WZz9QYWhs3wwGuMn4YssjdR+HOBpzChQ6C3+dblq4Pammm5fzugcPOhTgCiWftOT2jPOT5hEy4bYg==",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.12",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.12.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
       "type": "package",
@@ -1923,19 +1892,12 @@
       "path": "microsoft.extensions.dependencymodel/3.0.0",
       "hashPath": "microsoft.extensions.dependencymodel.3.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
-      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.FileProviders.Embedded/6.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-HoiphlFz8nmmX6ESjr5hKV871jgH1mJrZfxp0XOmkF9thyWAsfbhH4fM5esL50lCPLBUEdvtN2IO6iXHLG66PQ==",
-      "path": "microsoft.extensions.fileproviders.embedded/6.0.11",
-      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.11.nupkg.sha512"
+      "sha512": "sha512-U7ffyzrPfRDH5K3h/mBpqJVoHbppw1kc1KyHZcZeDR7b1A0FRaqMSiizGpN9IGwWs9BuN7oXIKFyviuSGBjHtQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.8",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512"
     },
     "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
       "type": "package",

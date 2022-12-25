@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DocStream.Core.Interfaces;
 using DocStream.Core.Services;
+using DocStream.Core.Token;
 using DocStream.Dtos.UserDtos;
 using DocStream.Models;
 using Microsoft.AspNetCore.Http;
@@ -55,68 +56,21 @@ namespace DocStream.API.Controllers
         [HttpPost("RegisterUser")]
         public async Task<IActionResult> Register([FromBody] UserDto userDto)
         {
-            _logger.LogInformation($"Registration attempt for {userDto.Email}");
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            _logger.LogInformation($"Registration Attempt for {userDto.Email}");
+            var errors = await _authManager.Register(userDto);
 
-            try
+            if (errors.Any())
             {
-                var user = _mapper.Map<ApplicationUser>(userDto);
-                user.UserName = userDto.Email;
-                user.EmailConfirmed = false;
-                var result = await _userManager.CreateAsync(user, userDto.Password);
-
-                if (!result.Succeeded)
+                foreach (var error in errors)
                 {
-                    return BadRequest($"User Registration Attempt Failed");
+                    ModelState.AddModelError(error.Code, error.Description);
                 }
-               
-                    //var token = _authManager.CreateToken(user);
-
-                var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-
-                var callbackurl = Url.Action("ConfirmEmail", "User", new { userId = user.Id, token = code }, protocol: HttpContext.Request.Scheme);
-
-
-                await _emailSender.SendEmailAsync(userDto.Email, "Confirm Email - Identity Manager", "Please confirm your email by clicking here: <a href=\"" + callbackurl + "\">link</a>");
-
-                return Ok("Check your email to confirm your email");
-                
-                 
-
-                
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e, $"Something Went Wrong in the {nameof(Register)}");
-                return Problem($"Something Went wrong in the {nameof(Register)}", statusCode: 500);
-            }
-
-
-        }
-
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [HttpPost("ConfirmEmail")]
-        public async Task<IActionResult> ConfirmEmail(string userId, string code)
-        {
-            if (!ModelState.IsValid)
-            {
                 return BadRequest(ModelState);
             }
 
-            var user = await _userManager.FindByIdAsync(userId);
-            if (user == null)
-                return BadRequest();
+            return Ok();
 
-            code = Encoding.UTF8.GetString(Convert.FromBase64String(code));
-            var result = await _userManager.ConfirmEmailAsync(user, code);
-            var status = result.Succeeded
-                ? "Thank you for confirming your email"
-                : "your email is not confirmed, please try again later";
 
-            return Ok(status);
         }
 
 
@@ -132,46 +86,42 @@ namespace DocStream.API.Controllers
         [HttpPost("LoginUser")]
         public async Task<ActionResult<TokenDto>> Login([FromBody] LoginUserDto userDto)
         {
-            _logger.LogInformation($"Login attempt for {userDto.Email}");
-            if (!ModelState.IsValid)
+            _logger.LogInformation($"Login Attempt for {userDto.Email} ");
+            var authResponse = await _authManager.Login(userDto);
+
+            if (authResponse == null)
             {
-                return BadRequest(ModelState);
+                return Unauthorized();
             }
 
-            try
-            {
-                var user = await _userManager.FindByEmailAsync(userDto.Email);
-                if (user == null || !await _userManager.CheckPasswordAsync(user, userDto.Password))
-                    return Unauthorized();
-
-                if (!user.EmailConfirmed)
-                {
-                    return BadRequest($"Email needs to be confirmed");
-                }
-
-                return new TokenDto
-                {
-                    Id = user.Id,
-                    Email = user.Email,
-                    Token = await _authManager.CreateToken(user)
-                };
-
-
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e, $"Something Went Wrong in the {nameof(Login)}");
-                return Problem($"Something Went wrong in the {nameof(Login)}", statusCode: 500);
-            }
+            return Ok(authResponse);
 
 
         }
-        // Logou
+        // Logout
         [HttpPost("userLogOut")]
         public async Task<IActionResult> LogOut()
         {
             await _signInManager.SignOutAsync();
             return Ok();
+        }
+
+        // POST: api/Account/refreshtoken
+        [HttpPost]
+        [Route("refreshtoken")]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult> RefreshToken([FromBody] TokenRequest request)
+        {
+            var authResponse = await _authManager.VerifyRefreshToken(request);
+
+            if (authResponse == null)
+            {
+                return Unauthorized();
+            }
+
+            return Ok(authResponse);
         }
 
         /// <summary>
@@ -199,18 +149,21 @@ namespace DocStream.API.Controllers
                 return StatusCode(500, "Internal Server Error. Please try Again Later.");
             }
         }
+
         // get single user
         //[Authorize]
         [HttpGet("currentUser")]
         public async Task<ActionResult<TokenDto>> GetCurrentUser()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            return new TokenDto
-            {
-                Id = user.Id,
-                Email = user.Email,
-                Token = await _authManager.CreateToken(user)
-            };
+            //return new TokenDto
+            //{
+            //    Id = user.Id,
+            //    Email = user.Email,
+            //    Token = await _authManager.CreateToken()
+            //};
+
+            return Ok(user);
         }
 
 

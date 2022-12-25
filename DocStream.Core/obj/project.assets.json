@@ -8635,11 +8635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Core\\DocStream.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Core\\DocStream.Core.csproj",
       "projectName": "DocStream.Core",
-      "projectPath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Core\\DocStream.Core.csproj",
+      "projectPath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Core\\DocStream.Core.csproj",
       "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Core\\obj\\",
+      "outputPath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8660,14 +8660,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Data\\DocStream.Data.csproj": {
-              "projectPath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Data\\DocStream.Data.csproj"
+            "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Data\\DocStream.Data.csproj": {
+              "projectPath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Data\\DocStream.Data.csproj"
             },
-            "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Dto\\DocStream.Dtos.csproj": {
-              "projectPath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Dto\\DocStream.Dtos.csproj"
+            "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Dto\\DocStream.Dtos.csproj": {
+              "projectPath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Dto\\DocStream.Dtos.csproj"
             },
-            "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Models\\DocStream.Models.csproj": {
-              "projectPath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Models\\DocStream.Models.csproj"
+            "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Models\\DocStream.Models.csproj": {
+              "projectPath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Models\\DocStream.Models.csproj"
             }
           }
         }

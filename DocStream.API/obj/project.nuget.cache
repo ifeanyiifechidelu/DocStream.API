@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uU7SIBIkq2mnVHMqG+FyiGr36VU4Ytnj03HvoyXrXSuIh8MPJWfl19ETPKc9revDRpX2yBjqmx9SDrFesh+i/Q==",
+  "dgSpecHash": "yfzvIOWrPUIboUzG4VZKVjtrAau7RmBRMGBGwc1pe3dGTd4QfKZ3kbtGelRZlVAwx2VLy4ngiT1uoV4L9o1ylg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.API\\DocStream.API.csproj",
+  "projectFilePath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.API\\DocStream.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Decagon\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Decagon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -7328,11 +7328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Srvices\\DocStream.FileEntities.csproj",
+      "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Srvices\\DocStream.FileEntities.csproj",
       "projectName": "DocStream.FileEntities",
-      "projectPath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Srvices\\DocStream.FileEntities.csproj",
+      "projectPath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Srvices\\DocStream.FileEntities.csproj",
       "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Decagon\\source\\repos\\DocStream\\DocStream.Srvices\\obj\\",
+      "outputPath": "C:\\Users\\Decagon\\Desktop\\DocStream\\DocStream.API\\DocStream.Srvices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
